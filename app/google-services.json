@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94450474087",
+    "project_id": "ridesharing-67604",
+    "storage_bucket": "ridesharing-67604.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94450474087:android:22c45191c553ad5d7ac8c2",
+        "android_client_info": {
+          "package_name": "com.example.ridesharing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQy3eYvG63CBsn86YsI6RMlwSeGd5aQ-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.GetNameActivity">
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="What's your name?"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="54dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <EditText
+        android:id="@+id/firstnametxt"
+        android:layout_width="321sp"
+        android:layout_height="49sp"
+        android:background="#D3D3D3"
+        android:ems="10"
+        android:hint="  First name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametxt"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <EditText
+        android:id="@+id/lastnametxt"
+        android:layout_width="321sp"
+        android:layout_height="49sp"
+        android:background="#D3D3D3"
+        android:ems="10"
+        android:hint="   Last name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/firstnametxt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/firstnametxt"
+        app:layout_constraintTop_toBottomOf="@+id/firstnametxt"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <Button
+        android:id="@+id/namebtn"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADD8E6"
+        android:text="Continue"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/lastnametxt"
+        app:layout_constraintStart_toStartOf="@+id/lastnametxt"
+        app:layout_constraintTop_toBottomOf="@+id/lastnametxt"
+        app:layout_constraintVertical_bias="0.706" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
