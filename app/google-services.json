@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDQy3eYvG63CBsn86YsI6RMlwSeGd5aQ-c"
+          "current_key": "env.FB_KEY"
         }
       ],
       "services": {
